@@ -28,7 +28,7 @@ SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "publicearn.com")
 SHORTLINK_API = os.environ.get("SHORTLINK_API", "8960075d61d126996682b45d5d8b4503a8d5e717")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 57600)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
-TUT_VID = os.environ.get("TUT_VID", "https://t.me/HTDTeraBox/6")
+TUT_VID = os.environ.get("TUT_VID", "https://t.me/HTDTeraBox/7")
 
 # ignore this one
 SECONDS = int(os.getenv("SECONDS", "200")) # auto delete in seconds
