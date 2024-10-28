@@ -24,8 +24,8 @@ FORCE_SUB_CHANNEL4 = int(os.environ.get("FORCE_SUB_CHANNEL4", "-1002102611150"))
 
 #Shortner (token system) 
 
-SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "publicearn.com") 
-SHORTLINK_API = os.environ.get("SHORTLINK_API", "8960075d61d126996682b45d5d8b4503a8d5e717")
+SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "rglinks.com") 
+SHORTLINK_API = os.environ.get("SHORTLINK_API", "cedfe548e9b4ac8d706ea4e23b86e13a1eaaaa9c")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 57600)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
 TUT_VID = os.environ.get("TUT_VID", "https://t.me/HTDTeraBox/7")
