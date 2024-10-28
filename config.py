@@ -28,7 +28,7 @@ SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "rglinks.com")
 SHORTLINK_API = os.environ.get("SHORTLINK_API", "cedfe548e9b4ac8d706ea4e23b86e13a1eaaaa9c")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 57600)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
-TUT_VID = os.environ.get("TUT_VID", "https://t.me/HTDTeraBox/7")
+TUT_VID = os.environ.get("TUT_VID", "https://t.me/HTDTeraBox/15")
 
 # ignore this one
 SECONDS = int(os.getenv("SECONDS", "200")) # auto delete in seconds
