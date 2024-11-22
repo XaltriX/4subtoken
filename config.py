@@ -12,14 +12,14 @@ API_HASH = os.environ.get("API_HASH", "f317b3f7bbe390346d8b46868cff0de8")
 
 
 OWNER = os.environ.get("OWNER", "i_am_yamraj") #Owner username
-OWNER_ID = int(os.environ.get("OWNER_ID", "1837294444")) #Owner user id
+OWNER_ID = int(os.environ.get("OWNER_ID", "7094616922")) #Owner user id
 DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://shexplanation33:9UMDhSeL4TNcuGVE@cluster0.rgjnbl3.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DB_NAME = os.environ.get("DATABASE_NAME", "Cluser10")
 
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002004278204")) #database save channel id 
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001980994910"))
 FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1002058538992"))
-FORCE_SUB_CHANNEL3 = int(os.environ.get("FORCE_SUB_CHANNEL3", "-1002121257524"))
+FORCE_SUB_CHANNEL3 = int(os.environ.get("FORCE_SUB_CHANNEL3", "-1002292395211"))
 FORCE_SUB_CHANNEL4 = int(os.environ.get("FORCE_SUB_CHANNEL4", "-1002102611150"))
 
 #Shortner (token system) 
