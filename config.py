@@ -12,7 +12,7 @@ API_HASH = os.environ.get("API_HASH", "f317b3f7bbe390346d8b46868cff0de8")
 
 
 OWNER = os.environ.get("OWNER", "xaltrix") #Owner username
-OWNER_ID = int(os.environ.get("OWNER_ID", "7094616922")) #Owner user id
+OWNER_ID = int(os.environ.get("OWNER_ID", "5706788169")) #Owner user id
 DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://shexplanation33:9UMDhSeL4TNcuGVE@cluster0.rgjnbl3.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DB_NAME = os.environ.get("DATABASE_NAME", "Cluser10")
 
@@ -24,11 +24,11 @@ FORCE_SUB_CHANNEL4 = int(os.environ.get("FORCE_SUB_CHANNEL4", "-1002102611150"))
 
 #Shortner (token system) 
 
-SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "shortxlinks.com") 
-SHORTLINK_API = os.environ.get("SHORTLINK_API", "c55c566760e3be49e77dad33024e8f94c36c42fb")
+SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "toshortx.com") 
+SHORTLINK_API = os.environ.get("SHORTLINK_API", "256816ee8d148a1f71319e889cd3ee3483ed489b")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 57600)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
-TUT_VID = os.environ.get("TUT_VID", "https://t.me/TutorialsNG/9")
+TUT_VID = os.environ.get("TUT_VID", "https://t.me/TutorialsNG/11")
 
 # ignore this one
 SECONDS = int(os.getenv("SECONDS", "200")) # auto delete in seconds
@@ -45,7 +45,7 @@ START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\nI can store privat
 
 try:
     ADMINS=[6020516635]
-    for x in (os.environ.get("ADMINS", "1837294444").split()):
+    for x in (os.environ.get("ADMINS", "5706788169").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
@@ -63,7 +63,7 @@ BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
 USER_REPLY_TEXT = "❌Don't send me messages directly I'm only File Share bot !"
 
 ADMINS.append(OWNER_ID)
-ADMINS.append(6695586027)
+ADMINS.append(5706788169)
 
 LOG_FILE_NAME = "uxblogs.txt"
 
